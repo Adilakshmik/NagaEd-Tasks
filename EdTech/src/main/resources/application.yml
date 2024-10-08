@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: EdTech
+  datasource:
+    password: Adilakshmi@1
+    url: jdbc:mysql://localhost:3306/nagaed
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
